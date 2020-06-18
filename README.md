@@ -6,8 +6,8 @@ A heavily modified version of the HOSTS file used by Microsoft TCP/IP for Window
 - Arconis
 - Microsoft ad servers
 - Malwarebytes
-- Adobe 10.x
-- Adobe 11.x
+- Adobe Acrobat 10.x
+- Adobe Acrobat 11.x
 - Adobe CS6
 - Adobe LR6.6
 - Adobe Acrobat DC

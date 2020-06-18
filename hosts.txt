@@ -25,24 +25,25 @@
 165.22.201.101		mlb-ws-mf.media.mlb.com
 165.22.201.101		playback.svcs.mlb.com
 
+
 # New Rovi EPG for WMC
-23.63.78.65			cdn.epg.tvdownload.microsoft.com		# Working as of 2020-04-04
-# 23.219.92.160		cdn.epg.tvdownload.microsoft.com		# Backup of 23.219.92.138
+23.63.78.65			cdn.epg.tvdownload.microsoft.com		# Working as of 2020-04-04, alias of cdn.epg.tvdownload.microsoft.com.edgesuite.net & cdn.epg.tvdownload.windowsmedia.com.akadns.net
 # 23.63.78.35		cdn.epg.tvdownload.microsoft.com		# Backup of 23.63.78.35
-# 65.175.141.216	cdn.epg.tvdownload.microsoft.com 
-# 65.175.141.217	cdn.epg.tvdownload.microsoft.com
-# 72.246.56.59		cdn.epg.tvdownload.microsoft.com
-# 128.177.98.169	cdn.epg.tvdownload.microsoft.com
-# 184.29.106.131	cdn.epg.tvdownload.microsoft.com
-# 2.16.216.176		cdn.epg.tvdownload.microsoft.com		# Working as of 2015-09-04
-# 23.219.92.138		cdn.epg.tvdownload.microsoft.com		# Working as of 2018-01-21
 
-65.55.5.170			data.tvdownload.microsoft.com			# Working as of 2020-04-04
-# 65.55.186.115		data.tvdownload.microsoft.com
-# 65.55.186.113		data.tvdownload.microsoft.com			# Working as of 2018-01-21
+65.55.5.170			data.tvdownload.microsoft.com			# Working as of 2020-04-08, alias of data.tvdownload.windowsmedia.com.akadns.net
 
-# Start of Arconis Blocks
+
+# WMC EPG
+134.170.29.194		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
+# 10.223.55.10		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
+# 40.90.10.100		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
+# 191.232.80.197	mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
+# 134.170.29.74		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
+
+
+# Start of Acronis Blocks
 127.0.0.1			liveupdate.acronis.com
+
 
 # Start of Microsoft Ad Server Blocks
 127.0.0.1			adbroker.mp.dse.microsoft.com
@@ -55,58 +56,14 @@
 127.0.0.1			mobileads.msn.com
 127.0.0.1			widgets.outbrain.com
 
+
 #Start of Malwarebytes Blocks
 #127.0.0.1			bactem.mwbsys.com
 #127.0.0.1			keystone.mwbsys.com
 #127.0.0.1			sirius.mwbsys.com
 
-# Start of Adobe 10.x Blocks
-127.0.0.1			3dns-1.adobe.com
-127.0.0.1			3dns-2.adobe.com
-127.0.0.1			3dns-3.adobe.com
-127.0.0.1			3dns-4.adobe.com
-127.0.0.1			3dns.adobe.com
-127.0.0.1			activate-sea.adobe.com
-127.0.0.1			activate-sjc0.adobe.com
-127.0.0.1			activate.adobe.com
-127.0.0.1			activate.wip1.adobe.com
-127.0.0.1			activate.wip2.adobe.com
-127.0.0.1			activate.wip3.adobe.com
-127.0.0.1			activate.wip4.adobe.com
-127.0.0.1			adobe-dns-1.adobe.com
-127.0.0.1			adobe-dns-2.adobe.com
-127.0.0.1			adobe-dns-3.adobe.com
-127.0.0.1			adobe-dns-4.adobe.com
-127.0.0.1			adobe-dns.adobe.com
-127.0.0.1			adobeereg.com
-127.0.0.1			crl.verisign.net
-127.0.0.1			ereg.adobe.com
-127.0.0.1			ereg.wip.adobe.com
-127.0.0.1			ereg.wip1.adobe.com
-127.0.0.1			ereg.wip2.adobe.com
-127.0.0.1			ereg.wip3.adobe.com
-127.0.0.1			ereg.wip4.adobe.com
-127.0.0.1			hl2rcv.adobe.com
-127.0.0.1			ood.opsource.net
-127.0.0.1			practivate.adobe
-127.0.0.1			practivate.adobe.com
-127.0.0.1			practivate.adobe.ipp
-127.0.0.1			practivate.adobe.newoa
-127.0.0.1			practivate.adobe.ntp
-127.0.0.1			wip.adobe.com
-127.0.0.1			wip1.aobe.com
-127.0.0.1			wip2.adobe.com
-127.0.0.1			wip3.adobe.com
-127.0.0.1			wip4.adobe.com
-127.0.0.1			wwis-dubc1-vip60.adobe.com
-127.0.0.1			www.adobeereg.com
-127.0.0.1			www.wip.adobe.com
-127.0.0.1			www.wip1.adobe.com
-127.0.0.1			www.wip2.adobe.com
-127.0.0.1			www.wip3.adobe.com
-127.0.0.1			www.wip4.adobe.com
 
-# Start of Adobe 11.x Blocks
+# Start of Adobe Block
 127.0.0.1			192.150.14.69
 127.0.0.1			192.150.18.101
 127.0.0.1			192.150.18.108
@@ -128,63 +85,11 @@
 127.0.0.1			3dns-2.adobe.com
 127.0.0.1			3dns-3.adobe.com
 127.0.0.1			3dns-4.adobe.com
-127.0.0.1			3dns.adobe.com
-127.0.0.1			CRL.VERISIGN.NET.*
-127.0.0.1			OCSP.SPO1.VERISIGN.COM
-127.0.0.1			activate-sea.adobe.com
-127.0.0.1			activate-sjc0.adobe.com
-127.0.0.1			activate.adobe.com
-127.0.0.1			activate.wip.adobe.com
-127.0.0.1			activate.wip1.adobe.com
-127.0.0.1			activate.wip2.adobe.com
-127.0.0.1			activate.wip3.adobe.com
-127.0.0.1			activate.wip4.adobe.com
-127.0.0.1			activation.acronis.com 
-127.0.0.1			adobe-dns-1.adobe.com
-127.0.0.1			adobe-dns-2.adobe.com
-127.0.0.1			adobe-dns-3.adobe.com
-127.0.0.1			adobe-dns-4.adobe.com
-127.0.0.1			adobe-dns.adobe.com
-127.0.0.1			adobe.activate.com
-127.0.0.1			adobeereg.com
-127.0.0.1			crl.verisign.net
-127.0.0.1			ereg.adobe.com
-127.0.0.1			ereg.wip.adobe.com
-127.0.0.1			ereg.wip1.adobe.com
-127.0.0.1			ereg.wip2.adobe.com
-127.0.0.1			ereg.wip3.adobe.com
-127.0.0.1			ereg.wip4.adobe.com
-127.0.0.1			hl2rcv.adobe.com
-127.0.0.1			lm.licenses.adobe.com
-127.0.0.1			lmlicenses.wip4.adobe.com
-127.0.0.1			ood.opsource.net
-127.0.0.1			practivate.adobe
-127.0.0.1			practivate.adobe.*
-127.0.0.1			practivate.adobe.com
-127.0.0.1			practivate.adobe.ipp
-127.0.0.1			practivate.adobe.newoa
-127.0.0.1			practivate.adobe.ntp
-127.0.0.1			tss-geotrust-crl.thawte.com
-127.0.0.1			wip.adobe.com
-127.0.0.1			wip1.adobe.com
-127.0.0.1			wip2.adobe.com
-127.0.0.1			wip3.adobe.com
-127.0.0.1			wip4.adobe.com
-127.0.0.1			wwis-dubc1-vip60.adobe.com
-127.0.0.1			www.adobeereg.com
-127.0.0.1			www.wip.adobe.com
-127.0.0.1			www.wip1.adobe.com
-127.0.0.1			www.wip2.adobe.com
-127.0.0.1			www.wip3.adobe.com
-127.0.0.1			www.wip4.adobe.com
-
-# Start of Adobe CS6 Blocks
-127.0.0.1			3dns-1.adobe.com
-127.0.0.1			3dns-2.adobe.com
-127.0.0.1			3dns-3.adobe.com
-127.0.0.1			3dns-4.adobe.com
+127.0.0.1			3dns-5.adobe.com
 127.0.0.1			3dns.adobe.com
 127.0.0.1			CRL.VERISIGN.NET
+127.0.0.1			CRL.VERISIGN.NET.*
+127.0.0.1			OCSP.SPO1.VERISIGN.COM
 127.0.0.1			activate-sea.adobe.com
 127.0.0.1			activate-sjc0.adobe.com
 127.0.0.1			activate.adobe.com
@@ -199,57 +104,9 @@
 127.0.0.1			adobe-dns-4.adobe.com
 127.0.0.1			adobe-dns-5.adobe.com
 127.0.0.1			adobe-dns.adobe.com
+127.0.0.1			adobe.activate.com
 127.0.0.1			adobeereg.com
 127.0.0.1			crl.verisign.net
-127.0.0.1			ereg.adobe.com
-127.0.0.1			ereg.wip.adobe.com
-127.0.0.1			ereg.wip1.adobe.com
-127.0.0.1			ereg.wip2.adobe.com
-127.0.0.1			ereg.wip3.adobe.com
-127.0.0.1			ereg.wip4.adobe.com
-127.0.0.1			hh-software.com
-127.0.0.1			hl2rcv.adobe.com
-127.0.0.1			lm.licenses.adobe.com
-127.0.0.1			lmlicenses.wip4.adobe.com
-127.0.0.1			ood.opsource.net
-127.0.0.1			practivate.adobe
-127.0.0.1			practivate.adobe.com
-127.0.0.1			practivate.adobe.ipp
-127.0.0.1			practivate.adobe.newoa
-127.0.0.1			practivate.adobe.ntp
-127.0.0.1			wip.adobe.com
-127.0.0.1			wip1.adobe.com
-127.0.0.1			wip2.adobe.com
-127.0.0.1			wip3.adobe.com
-127.0.0.1			wip4.adobe.com
-127.0.0.1			wwis-dubc1-vip60.adobe.com
-127.0.0.1			www.hh-software.com
-127.0.0.1			www.wip.adobe.com
-127.0.0.1			www.wip1.adobe.com
-127.0.0.1			www.wip2.adobe.com
-127.0.0.1			www.wip3.adobe.com
-127.0.0.1			www.wip4.adobe.com
-
-# Start of Adobe LR6.6 Block
-127.0.0.1			3dns-1.adobe.com
-127.0.0.1			3dns-2.adobe.com
-127.0.0.1			3dns-3.adobe.com
-127.0.0.1			3dns-4.adobe.com
-127.0.0.1			3dns-5.adobe.com
-127.0.0.1			3dns.adobe.com
-127.0.0.1			activate-sea.adobe.com
-127.0.0.1			activate-sjc0.adobe.com
-127.0.0.1			activate.adobe.com
-127.0.0.1			activate.wip1.adobe.com
-127.0.0.1			activate.wip2.adobe.com
-127.0.0.1			activate.wip3.adobe.com
-127.0.0.1			activate.wip4.adobe.com
-127.0.0.1			adobe-dns-1.adobe.com
-127.0.0.1			adobe-dns-2.adobe.com
-127.0.0.1			adobe-dns-3.adobe.com
-127.0.0.1			adobe-dns-4.adobe.com
-127.0.0.1			adobe-dns.adobe.com
-127.0.0.1			adobeereg.com
 127.0.0.1			crl.versign.net
 127.0.0.1			ereg.adobe.com
 127.0.0.1			ereg.wip.adobe.com
@@ -257,15 +114,25 @@
 127.0.0.1			ereg.wip2.adobe.com
 127.0.0.1			ereg.wip3.adobe.com
 127.0.0.1			ereg.wip4.adobe.com
+127.0.0.1			genuine.adobe.com
+127.0.0.1			hh-software.com
 127.0.0.1			hl2rcv.adobe.com
+127.0.0.1			hlrcv.stage.adobe.com
+127.0.0.1			lm.licenses.adobe.com
+127.0.0.1			lmlicenses.wip4.adobe.com
+127.0.0.1			na1r.services.adobe.com
 127.0.0.1			ood.opsource.net
 127.0.0.1			practivate.adobe
+127.0.0.1			practivate.adobe.*
 127.0.0.1			practivate.adobe.com
 127.0.0.1			practivate.adobe.ipp
 127.0.0.1			practivate.adobe.newoa
 127.0.0.1			practivate.adobe.ntp
+127.0.0.1			prod.adobegenuine.com
+127.0.0.1			tss-geotrust-crl.thawte.com
 127.0.0.1			wip.adobe.com
 127.0.0.1			wip1.adobe.com
+127.0.0.1			wip1.aobe.com
 127.0.0.1			wip2.adobe.com
 127.0.0.1			wip3.adobe.com
 127.0.0.1			wip4.adobe.com
@@ -365,13 +232,10 @@
 127.0.0.1			wwis-dubc1-vip123.adobe.com
 127.0.0.1			wwis-dubc1-vip124.adobe.com
 127.0.0.1			wwis-dubc1-vip125.adobe.com
-
-# Start of Adobe Acrobat DC Block
-127.0.0.1			activate.adobe.com
-127.0.0.1			genuine.adobe.com
-127.0.0.1			hlrcv.stage.adobe.com
-127.0.0.1			lm.licenses.adobe.com
-127.0.0.1			lmlicenses.wip4.adobe.com
-127.0.0.1			na1r.services.adobe.com
-127.0.0.1			practivate.adobe.com
-127.0.0.1			prod.adobegenuine.com
+127.0.0.1			www.adobeereg.com
+127.0.0.1			www.hh-software.com
+127.0.0.1			www.wip.adobe.com
+127.0.0.1			www.wip1.adobe.com
+127.0.0.1			www.wip2.adobe.com
+127.0.0.1			www.wip3.adobe.com
+127.0.0.1			www.wip4.adobe.com
