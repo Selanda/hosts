@@ -26,40 +26,39 @@
 165.22.201.101		playback.svcs.mlb.com
 
 # New Rovi EPG for WMC
+23.63.78.65			cdn.epg.tvdownload.microsoft.com		# Working as of 2020-04-04
+# 23.219.92.160		cdn.epg.tvdownload.microsoft.com		# Backup of 23.219.92.138
+# 23.63.78.35		cdn.epg.tvdownload.microsoft.com		# Backup of 23.63.78.35
 # 65.175.141.216	cdn.epg.tvdownload.microsoft.com 
 # 65.175.141.217	cdn.epg.tvdownload.microsoft.com
-# 2.16.216.176		cdn.epg.tvdownload.microsoft.com		# Working as of 2015-09-04
 # 72.246.56.59		cdn.epg.tvdownload.microsoft.com
 # 128.177.98.169	cdn.epg.tvdownload.microsoft.com
 # 184.29.106.131	cdn.epg.tvdownload.microsoft.com
+# 2.16.216.176		cdn.epg.tvdownload.microsoft.com		# Working as of 2015-09-04
 # 23.219.92.138		cdn.epg.tvdownload.microsoft.com		# Working as of 2018-01-21
-# 23.219.92.160		cdn.epg.tvdownload.microsoft.com		# Backup of 23.219.92.138
-23.63.78.65			cdn.epg.tvdownload.microsoft.com		# Working as of 2020-04-04
-# 23.63.78.35		cdn.epg.tvdownload.microsoft.com		# Backup of 23.63.78.35
 
-
-# 65.55.186.113		data.tvdownload.microsoft.com			# Working as of 2018-01-21
-# 65.55.186.115		data.tvdownload.microsoft.com
 65.55.5.170			data.tvdownload.microsoft.com			# Working as of 2020-04-04
+# 65.55.186.115		data.tvdownload.microsoft.com
+# 65.55.186.113		data.tvdownload.microsoft.com			# Working as of 2018-01-21
 
 # Start of Arconis Blocks
 127.0.0.1			liveupdate.acronis.com
 
 # Start of Microsoft Ad Server Blocks
-127.0.0.1			mobileads.msn.com
 127.0.0.1			adbroker.mp.dse.microsoft.com
+127.0.0.1			ads.api.vungle.com
 127.0.0.1			api.taboola.com
 127.0.0.1			api.vungle.com
-127.0.0.1			cdn.spotxcdn.com
-127.0.0.1			ads.api.vungle.com
-127.0.0.1			fp.msedge.net
 127.0.0.1			cdn.adnxs.com
+127.0.0.1			cdn.spotxcdn.com
+127.0.0.1			fp.msedge.net
+127.0.0.1			mobileads.msn.com
 127.0.0.1			widgets.outbrain.com
 
 #Start of Malwarebytes Blocks
+#127.0.0.1			bactem.mwbsys.com
 #127.0.0.1			keystone.mwbsys.com
 #127.0.0.1			sirius.mwbsys.com
-#127.0.0.1			bactem.mwbsys.com
 
 # Start of Adobe 10.x Blocks
 127.0.0.1			3dns-1.adobe.com
@@ -80,7 +79,7 @@
 127.0.0.1			adobe-dns-4.adobe.com
 127.0.0.1			adobe-dns.adobe.com
 127.0.0.1			adobeereg.com
-127.0.0.1			crl.verisign.net CRL.VERISIGN.NET ood.opsource.net
+127.0.0.1			crl.verisign.net
 127.0.0.1			ereg.adobe.com
 127.0.0.1			ereg.wip.adobe.com
 127.0.0.1			ereg.wip1.adobe.com
@@ -88,6 +87,7 @@
 127.0.0.1			ereg.wip3.adobe.com
 127.0.0.1			ereg.wip4.adobe.com
 127.0.0.1			hl2rcv.adobe.com
+127.0.0.1			ood.opsource.net
 127.0.0.1			practivate.adobe
 127.0.0.1			practivate.adobe.com
 127.0.0.1			practivate.adobe.ipp
@@ -269,32 +269,6 @@
 127.0.0.1			wip2.adobe.com
 127.0.0.1			wip3.adobe.com
 127.0.0.1			wip4.adobe.com
-127.0.0.1			wwis-dubc1-vip100.adobe.com
-127.0.0.1			wwis-dubc1-vip101.adobe.com
-127.0.0.1			wwis-dubc1-vip102.adobe.com
-127.0.0.1			wwis-dubc1-vip103.adobe.com
-127.0.0.1			wwis-dubc1-vip104.adobe.com
-127.0.0.1			wwis-dubc1-vip105.adobe.com
-127.0.0.1			wwis-dubc1-vip106.adobe.com
-127.0.0.1			wwis-dubc1-vip107.adobe.com
-127.0.0.1			wwis-dubc1-vip108.adobe.com
-127.0.0.1			wwis-dubc1-vip109.adobe.com
-127.0.0.1			wwis-dubc1-vip110.adobe.com
-127.0.0.1			wwis-dubc1-vip111.adobe.com
-127.0.0.1			wwis-dubc1-vip112.adobe.com
-127.0.0.1			wwis-dubc1-vip113.adobe.com
-127.0.0.1			wwis-dubc1-vip114.adobe.com
-127.0.0.1			wwis-dubc1-vip115.adobe.com
-127.0.0.1			wwis-dubc1-vip116.adobe.com
-127.0.0.1			wwis-dubc1-vip117.adobe.com
-127.0.0.1			wwis-dubc1-vip118.adobe.com
-127.0.0.1			wwis-dubc1-vip119.adobe.com
-127.0.0.1			wwis-dubc1-vip120.adobe.com
-127.0.0.1			wwis-dubc1-vip121.adobe.com
-127.0.0.1			wwis-dubc1-vip122.adobe.com
-127.0.0.1			wwis-dubc1-vip123.adobe.com
-127.0.0.1			wwis-dubc1-vip124.adobe.com
-127.0.0.1			wwis-dubc1-vip125.adobe.com
 127.0.0.1			wwis-dubc1-vip30.adobe.com
 127.0.0.1			wwis-dubc1-vip31.adobe.com
 127.0.0.1			wwis-dubc1-vip32.adobe.com
@@ -365,13 +339,39 @@
 127.0.0.1			wwis-dubc1-vip97.adobe.com
 127.0.0.1			wwis-dubc1-vip98.adobe.com
 127.0.0.1			wwis-dubc1-vip99.adobe.com
+127.0.0.1			wwis-dubc1-vip100.adobe.com
+127.0.0.1			wwis-dubc1-vip101.adobe.com
+127.0.0.1			wwis-dubc1-vip102.adobe.com
+127.0.0.1			wwis-dubc1-vip103.adobe.com
+127.0.0.1			wwis-dubc1-vip104.adobe.com
+127.0.0.1			wwis-dubc1-vip105.adobe.com
+127.0.0.1			wwis-dubc1-vip106.adobe.com
+127.0.0.1			wwis-dubc1-vip107.adobe.com
+127.0.0.1			wwis-dubc1-vip108.adobe.com
+127.0.0.1			wwis-dubc1-vip109.adobe.com
+127.0.0.1			wwis-dubc1-vip110.adobe.com
+127.0.0.1			wwis-dubc1-vip111.adobe.com
+127.0.0.1			wwis-dubc1-vip112.adobe.com
+127.0.0.1			wwis-dubc1-vip113.adobe.com
+127.0.0.1			wwis-dubc1-vip114.adobe.com
+127.0.0.1			wwis-dubc1-vip115.adobe.com
+127.0.0.1			wwis-dubc1-vip116.adobe.com
+127.0.0.1			wwis-dubc1-vip117.adobe.com
+127.0.0.1			wwis-dubc1-vip118.adobe.com
+127.0.0.1			wwis-dubc1-vip119.adobe.com
+127.0.0.1			wwis-dubc1-vip120.adobe.com
+127.0.0.1			wwis-dubc1-vip121.adobe.com
+127.0.0.1			wwis-dubc1-vip122.adobe.com
+127.0.0.1			wwis-dubc1-vip123.adobe.com
+127.0.0.1			wwis-dubc1-vip124.adobe.com
+127.0.0.1			wwis-dubc1-vip125.adobe.com
 
-# Start of Adobe Acrobat DC 2019 Block
-127.0.0.1			na1r.services.adobe.com
-127.0.0.1			hlrcv.stage.adobe.com
-127.0.0.1			lmlicenses.wip4.adobe.com
-127.0.0.1			lm.licenses.adobe.com
+# Start of Adobe Acrobat DC Block
 127.0.0.1			activate.adobe.com
-127.0.0.1			practivate.adobe.com
 127.0.0.1			genuine.adobe.com
+127.0.0.1			hlrcv.stage.adobe.com
+127.0.0.1			lm.licenses.adobe.com
+127.0.0.1			lmlicenses.wip4.adobe.com
+127.0.0.1			na1r.services.adobe.com
+127.0.0.1			practivate.adobe.com
 127.0.0.1			prod.adobegenuine.com
