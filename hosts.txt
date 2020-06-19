@@ -42,7 +42,16 @@
 
 
 # Start of Acronis Blocks
+127.0.0.1			account.acronis.com
+127.0.0.1			activation.acronis.com
+127.0.0.1			download.acronis.com
+127.0.0.1			gateway.acronis.com
 127.0.0.1			liveupdate.acronis.com
+127.0.0.1			ns1.acronis.com
+127.0.0.1			ns2.acronis.com
+127.0.0.1			ns3.acronis.com
+127.0.0.1			orders.acronis.com
+127.0.0.1			web-api-tih.acronis.com
 
 
 # Start of Microsoft Ad Server Blocks

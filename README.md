@@ -3,7 +3,7 @@
 A heavily modified version of the HOSTS file used by Microsoft TCP/IP for Windows which includes blocks for:
 - NHLGames & Lazyman
 - RoviEPG for WMC
-- Arconis
+- Acronis True Image
 - Microsoft ad servers
 - Malwarebytes
 - Adobe Acrobat 10.x
