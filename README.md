@@ -1,6 +1,6 @@
 # Readme
 
-A heavily modified version of the HOSTS file used by Microsoft TCP/IP for Windows which includes blocks for:
+A heavily modified version of the HOSTS file used by Microsoft TCP/IP for Windows which includes modifications for:
 - NHLGames & Lazyman
 - RoviEPG for WMC
 - Acronis True Image
