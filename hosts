@@ -25,6 +25,7 @@
 165.22.201.101		mlb-ws-mf.media.mlb.com
 165.22.201.101		playback.svcs.mlb.com
 165.22.201.101		nhl.freegamez.ga						# Fix required for LazyMan to function when freegamez.ga DNS is down
+165.22.201.101		freesports.ddns.net						# alias of nhl.freegamez.ga
 
 
 # New Rovi EPG for WMC
