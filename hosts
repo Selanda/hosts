@@ -20,27 +20,17 @@
 #	127.0.0.1       localhost
 #	::1             localhost
 
-# NHLGames & Lazyman, use IP for nhl.freegamez.ga
-165.22.201.101		mf.svc.nhl.com
-165.22.201.101		mlb-ws-mf.media.mlb.com
-165.22.201.101		playback.svcs.mlb.com
+# NHLGames & Lazyman, use IP for nhl.freegamez.ga or freesports.ddns.net
+128.199.46.251		mf.svc.nhl.com
+128.199.46.251		mlb-ws-mf.media.mlb.com
+128.199.46.251		playback.svcs.mlb.com
 165.22.201.101		nhl.freegamez.ga						# Fix required for LazyMan to function when freegamez.ga DNS is down
-165.22.201.101		freesports.ddns.net						# alias of nhl.freegamez.ga
+128.199.46.251		freesports.ddns.net						# Alternative to freegamez.ga
 
 
 # New Rovi EPG for WMC
 23.63.78.65			cdn.epg.tvdownload.microsoft.com		# Working as of 2020-04-04, alias of cdn.epg.tvdownload.microsoft.com.edgesuite.net & cdn.epg.tvdownload.windowsmedia.com.akadns.net
 # 23.63.78.35		cdn.epg.tvdownload.microsoft.com		# Backup of 23.63.78.35
-
-65.55.5.170			data.tvdownload.microsoft.com			# Working as of 2020-04-08, alias of data.tvdownload.windowsmedia.com.akadns.net
-
-
-# WMC EPG
-134.170.29.194		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
-# 10.223.55.10		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
-# 40.90.10.100		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
-# 191.232.80.197	mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
-# 134.170.29.74		mediacenter.microsoft.com				# alias of mediacenter.gtm.xboxlive.com
 
 
 # Start of Acronis Blocks
