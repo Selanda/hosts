@@ -123,6 +123,7 @@
 127.0.0.1			adobe-dns.adobe.com
 127.0.0.1			adobe.activate.com
 127.0.0.1			adobeereg.com
+127.0.0.1			assets.adobedtm.com
 127.0.0.1			cc-api-data.adobe.io
 127.0.0.1			crl.verisign.net
 127.0.0.1			crl.versign.net
@@ -137,6 +138,7 @@
 127.0.0.1			hh-software.com
 127.0.0.1			hl2rcv.adobe.com
 127.0.0.1			hlrcv.stage.adobe.com
+127.0.0.1			ic.adobe.io
 127.0.0.1			lm.licenses.adobe.com
 127.0.0.1			lmlicenses.wip4.adobe.com
 127.0.0.1			na1r.services.adobe.com
